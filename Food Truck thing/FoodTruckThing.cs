@@ -35,10 +35,11 @@ namespace Food_Truck_thing
                (Convert.ToDecimal(txtHamburgers.Text) * 5).ToString("0.00");
             txtPretaxTotal.Text =
                (Convert.ToDecimal(txtHotDogsSubtotal.Text) + Convert.ToDecimal(txtHamburgersSubtotal.Text)).ToString("0.00");
-            //broken bit \/\/
             txtTax.Text =
-               (7 / 100 * (Convert.ToDecimal(txtPretaxTotal.Text))).ToString("0.00");
-            //broken bit /\/\
+               ((Convert.ToDecimal(txtPretaxTotal.Text) * .07m)).ToString("0.00");
+            txtTotal.Text =
+                (Convert.ToDecimal(txtTax.Text) + Convert.ToDecimal(txtPretaxTotal.Text)).ToString("0.00");
+            btnClear.Focus();
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -54,6 +55,24 @@ namespace Food_Truck_thing
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            txtHotDogs.Text = "0";
+            txtHamburgers.Text = "0";
+            txtHotDogsSubtotal.Text = "";
+            txtHamburgersSubtotal.Text = "";
+            txtPretaxTotal.Text = "";
+            txtTax.Text = "";
+            txtTotal.Text = "";
+            txtHotDogs.Focus();
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
