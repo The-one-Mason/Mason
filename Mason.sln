@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "form thing", "form thing\fo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Food Truck thing", "Food Truck thing\Food Truck thing.csproj", "{C398729D-FA87-4EBC-9085-E8FE100DDDF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{4507A5F9-934E-4D9D-999E-DB54EEF942B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C398729D-FA87-4EBC-9085-E8FE100DDDF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C398729D-FA87-4EBC-9085-E8FE100DDDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C398729D-FA87-4EBC-9085-E8FE100DDDF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4507A5F9-934E-4D9D-999E-DB54EEF942B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4507A5F9-934E-4D9D-999E-DB54EEF942B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4507A5F9-934E-4D9D-999E-DB54EEF942B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4507A5F9-934E-4D9D-999E-DB54EEF942B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
