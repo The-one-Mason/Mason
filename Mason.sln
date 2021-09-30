@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "form thing", "form thing\form thing.csproj", "{27AACAD8-2527-4C9A-BD04-8979F634DB9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invoice Total Form", "form thing\Invoice Total Form.csproj", "{27AACAD8-2527-4C9A-BD04-8979F634DB9D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Food Truck thing", "Food Truck thing\Food Truck thing.csproj", "{C398729D-FA87-4EBC-9085-E8FE100DDDF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{4507A5F9-934E-4D9D-999E-DB54EEF942B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USD Dollar Converter", "WindowsFormsApp1\USD Dollar Converter.csproj", "{4507A5F9-934E-4D9D-999E-DB54EEF942B7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Average Test Score", "Average Test Score\Average Test Score.csproj", "{562E1717-E923-483B-A7A4-5EF8AB32ED32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DollarConverter2", "DollarConverter2\DollarConverter2.csproj", "{DEF6281F-AA02-46BD-AB4A-38C6098342C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{562E1717-E923-483B-A7A4-5EF8AB32ED32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{562E1717-E923-483B-A7A4-5EF8AB32ED32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{562E1717-E923-483B-A7A4-5EF8AB32ED32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF6281F-AA02-46BD-AB4A-38C6098342C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF6281F-AA02-46BD-AB4A-38C6098342C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF6281F-AA02-46BD-AB4A-38C6098342C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF6281F-AA02-46BD-AB4A-38C6098342C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
