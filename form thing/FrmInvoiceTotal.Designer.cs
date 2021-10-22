@@ -75,6 +75,7 @@ namespace form_thing
             this.label3.TabIndex = 4;
             this.label3.Text = "Discount amount:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -86,6 +87,7 @@ namespace form_thing
             this.label4.TabIndex = 6;
             this.label4.Text = "Total:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtSubtotal
             // 
@@ -94,6 +96,7 @@ namespace form_thing
             this.txtSubtotal.Name = "txtSubtotal";
             this.txtSubtotal.Size = new System.Drawing.Size(171, 20);
             this.txtSubtotal.TabIndex = 1;
+            this.txtSubtotal.TextChanged += new System.EventHandler(this.txtSubtotal_TextChanged);
             // 
             // txtDiscountPercent
             // 
@@ -103,6 +106,7 @@ namespace form_thing
             this.txtDiscountPercent.Size = new System.Drawing.Size(171, 20);
             this.txtDiscountPercent.TabIndex = 2;
             this.txtDiscountPercent.Text = "5";
+            this.txtDiscountPercent.TextChanged += new System.EventHandler(this.txtDiscountPercent_TextChanged);
             // 
             // txtDiscountAmount
             // 
@@ -124,6 +128,7 @@ namespace form_thing
             this.txtTotal.Size = new System.Drawing.Size(171, 20);
             this.txtTotal.TabIndex = 7;
             this.txtTotal.TabStop = false;
+            this.txtTotal.TextChanged += new System.EventHandler(this.txtTotal_TextChanged);
             // 
             // btnCalculate
             // 
